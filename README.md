@@ -98,7 +98,8 @@ Para validar sua atividade, siga estes passos:
 4.  **Resposta Teórica:** No final deste README (ou em um arquivo separado), responda à seguinte questão:
 
 > **Pergunta:** Sendo este um sistema distribuído, quais seriam os riscos de manter o saldo em memória (InMemory) caso tivéssemos múltiplas instâncias desta API rodando simultaneamente?
-
+ 
+> **Resposta:** Usar InMemory em sistemas distribuídos compromete a consistência, confiabilidade e escalabilidade. Pode haver perda de dados em caso de falhas ou reinicializações, e operações simultâneas podem gerar condições de corrida, resultando em cálculos incorretos e saldos inconsistentes para o mesmo usuário.
 ---
 
 ## 📁 Instruções para o Aluno
